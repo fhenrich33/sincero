@@ -1,12 +1,12 @@
-import { fireEvent, render, waitFor } from '@testing-library/react'
 import '@testing-library/jest-dom/extend-expect'
+import { fireEvent, render, waitFor } from '@testing-library/react'
 import Wizard from '.'
 import { QuestionT } from '../../context/QuestionProvider'
 import { UserT } from '../../context/types'
 import questions from '../../mocks/questions.json'
 import users from '../../mocks/people.json'
 
-const submit = jest.fn()
+const submit = vi.fn()
 const user = users[0] as UserT
 
 /**
