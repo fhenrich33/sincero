@@ -1,0 +1,30 @@
+.progress {
+  position: relative;
+  margin: auto;
+  width: 100%;
+  height: 5px;
+  border-radius: 25px;
+  background: var(--lightGrey);
+  z-index: 0;
+}
+
+.progress::after {
+  content: '';
+  position: absolute;
+  margin: auto;
+  width: var(--progress);
+  height: 5px;
+  border-radius: 25px;
+  background: linear-gradient(
+    90deg,
+    var(--progressBarGradientStart),
+    var(--progressBarGradientEnd) 100%,
+    transparent 0
+  );
+  transition: width 0.35s ease-in-out;
+  z-index: 10;
+}
+
+progress {
+  display: none;
+}

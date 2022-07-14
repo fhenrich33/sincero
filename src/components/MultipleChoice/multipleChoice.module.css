@@ -1,0 +1,22 @@
+.multiChoice {
+  border-radius: 3px;
+  cursor: pointer;
+  display: block;
+  background: var(--lightGrey);
+  margin-bottom: 10px;
+  padding: 16px 30px;
+}
+
+.input {
+  opacity: 0;
+  position: absolute;
+}
+
+.input:checked + .multiChoice{
+  color: white;
+  background: var(--HonestoBlackPearl66);
+}
+
+.input:focus + .multiChoice {
+  box-shadow: var(--containerShadow);
+}

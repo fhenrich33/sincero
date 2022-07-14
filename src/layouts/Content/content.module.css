@@ -1,0 +1,5 @@
+.content {
+  margin: 0 auto;
+  padding: var(--baseVertSpacing) var(--baseHorzSpacing);
+  width: var(--baseLayoutWidth);
+}

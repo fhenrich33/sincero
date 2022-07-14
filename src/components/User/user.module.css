@@ -1,0 +1,23 @@
+.user {
+  align-items: center;
+  display: flex;
+  font-size: var(--fs-l);
+  gap: var(--baseHorzSpacing);
+}
+
+.initials,
+.avatar {
+  border-radius: 50%;
+  border: var(--baseBorder);
+  display: inline-block;
+  height: 58px;
+  width: 58px;
+}
+
+.initials {
+  align-items: center;
+  background-color: var(--primaryLightColor);
+  display: flex;
+  font-size: var(--fs-xl);
+  justify-content: center;
+}

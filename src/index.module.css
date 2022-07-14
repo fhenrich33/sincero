@@ -1,0 +1,118 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,500,600,700,900);
+
+:root {
+  --lightGrey: #f2f3f4;
+  /* COLORS */
+  --white: #ffffff;
+  --black: #000000;
+  --accentColor: #201d29;
+  --borderColor: #d6d6d6;
+  --copyColor: #333333;
+  --copyDarkColor: var(--black);
+  --copyLightColor: var(--white);
+  --primaryColor: #ab61e5;
+  --primaryLightColor: #faf5ff;
+  --primaryMediumColor: #e7e2f8;
+  --secondaryLightColor: #fbf7fe;
+  --HonestoBlack: #031323;
+  --HonestoGray: #d9dcde;
+  --HonestoBlackPearl33: #acb1b6;
+  --HonestoBlackPearl66: #59636e;
+
+  /* TYPOGRAPHY */
+  --font-family: 'Open Sans', sans-serif;
+  --fs-base: 1rem;
+  --fs-l: 1.25rem;
+  --fs-sm: 0.75rem;
+  --fs-xl: 1.75rem;
+  --fs-xxl: 2rem;
+  --fw-extrabold: 900;
+  --fw-bold: 700;
+  --fw-medium: 500;
+  --fw-regular: 300;
+  --fw-semibold: 600;
+  --lineHeight: 1.2;
+
+  /*  */
+  --animDuration: 0.3s;
+  --animEase: ease-out;
+  --borderRadius: 4px;
+
+  --baseHorzSpacing: 2rem;
+  --baseVertSpacing: 3rem;
+
+  --baseBorder: 1px solid var(--borderColor);
+
+  --progressBarGradientStart: #1ddebb;
+  --progressBarGradientEnd: #98fffb;
+
+  --containerShadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+  /* LAYOUT */
+  --baseMinWidth: 320px;
+  --baseMaxWidth: 1200px;
+  --baseLayoutWidth: clamp(var(--baseMinWidth), 100%, var(--baseMaxWidth));
+}
+
+* {
+  box-sizing: border-box;
+  line-height: var(--lineHeight);
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  font-size: clamp(0.75rem, 2vw, 1rem);
+}
+
+body {
+  font-family: var(--font-family);
+  color: var(--copyColor);
+  font-size: var(--fs-base);
+  min-height: 100vh;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  margin: 0 0 0.45em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: var(--copyDarkColor);
+}
+
+h1 {
+  font-size: var(--fs-xxl);
+  font-weight: var(--fw-regeular);
+}
+
+h2 {
+  font-size: var(--fs-xl);
+  font-weight: var(--fw-semiBold);
+}
+
+h3 {
+  font-size: var(--fs-l);
+  font-weight: var(--fw-extrabold);
+  text-transform: uppercase;
+  letter-spacing: 0.15px;
+  color: var(--copyColor);
+}
+
+p {
+  font-weight: var(--fw-regular);
+}
+
+a {
+  color: var(--primaryColor);
+  cursor: pointer;
+  font-weight: var(--fw-semibold);
+}

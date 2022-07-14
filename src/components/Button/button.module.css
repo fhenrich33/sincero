@@ -1,0 +1,60 @@
+.button {
+  background-color: white;
+  border-radius: var(--borderRadius);
+  border: 1px solid var(--HonestoBlackPearl33);
+  border-radius: 4px;
+  color: var(--HonestoBlack);
+  cursor: pointer;
+  font-size: var(--fs-base);
+  font-weight: var(--fw-semibold);
+  padding: 0.75rem 3.125rem;
+  text-decoration: none;
+  transition: var(--animDuration) var(--animEase);
+}
+
+.button:hover {
+  background-color: var(--HonestoGray);
+}
+
+.primaryButton {
+  background-color: var(--primaryColor);
+  border-radius: var(--borderRadius);
+  border: 1px solid var(--primaryColor);
+  color: var(--copyLightColor);
+}
+
+.primaryButton:hover {
+  background-color: var(--copyLightColor);
+  border-color: var(--primaryColor);
+  color: var(--primaryColor);
+}
+
+.secondaryButton {
+  background-color: transparent;
+  border-color: var(--borderColor);
+  color: var(--copyDarkColor);
+}
+
+.secondaryButton:hover {
+  background-color: var(--primaryLightColor);
+}
+
+.transparentButton {
+  background-color: transparent;
+  border: none;
+  color: var(--copyDarkColor);
+  font-size: initial;
+  font-weight: initial;
+  padding: unset;
+}
+
+.transparentButton:hover {
+  background-color: transparent;
+}
+
+.button:disabled {
+  background-color: var(--HonestoBlackPearl33);
+  color: white;
+  cursor: default;
+  border: none;
+}

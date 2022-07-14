@@ -1,0 +1,15 @@
+.footer {
+  align-items: center;
+  background-color: var(--accentColor);
+  color: var(--copyLightColor);
+  display: flex;
+  justify-content: space-between;
+  padding: 0 var(--baseHorzSpacing);
+}
+
+@media screen and (max-width: 800px) {
+  .footer {
+    flex-direction: column;
+    padding: 2rem 0;
+  }
+}

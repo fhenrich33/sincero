@@ -1,0 +1,17 @@
+.container {
+  box-shadow: var(--containerShadow);
+  padding: 30px 28px 58px;
+}
+
+.header {
+  color: var(--HonestoBlackPearl66);
+  font-size: 0.75rem;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 0.15em;
+}
+
+.copy {
+  font-weight: 700;
+  margin-bottom: 2rem;
+}

@@ -1,0 +1,39 @@
+.loginBox {
+  align-items: center;
+  background-color: var(--white);
+  border: var(--baseBorder);
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 7rem 7rem 3rem 7rem;
+}
+
+.loginAs {
+  padding-bottom: 2rem;
+}
+
+.wrapper {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  width: 100%;
+}
+
+.heading {
+  margin-bottom: var(--baseVertSpacing);
+}
+
+.background {
+  background-image: url(./background.png);
+  background-size: cover;
+}
+
+.logo {
+  background: linear-gradient(76.35deg, #801ae6, #1a8ae6 89.75%);
+  background-clip: border-box;
+  font-size: 8rem;
+  font-weight: 700;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

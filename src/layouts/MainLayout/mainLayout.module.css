@@ -1,0 +1,19 @@
+.mainLayout {
+  display: grid;
+  grid-template-rows: 1fr 60px;
+  min-height: 100vh;
+}
+
+.loggedIn {
+  grid-template-rows: 75px 1fr 60px;
+}
+
+@media screen and (max-width: 800px) {
+  .mainLayout,
+  .loggedIn {
+    display: flex;
+    flex-direction: column;
+    grid-template-rows: unset;
+    justify-content: space-between;
+  }
+}

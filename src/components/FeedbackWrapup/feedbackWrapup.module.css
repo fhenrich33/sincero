@@ -1,0 +1,35 @@
+.container {
+  box-shadow: var(--containerShadow);
+}
+
+.header {
+  animation: fadeIn var(--animDuration);
+}
+
+.subHeader {
+  color: var(--HonestoBlackPearl66);
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.users {
+  list-style-type: none;
+}
+
+.user {
+  align-items: center;
+  border-bottom: var(--baseBorder);
+  display: flex;
+  padding: 1rem;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
