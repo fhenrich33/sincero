@@ -2,7 +2,7 @@
 
 A feedback platform for teams.
 
-## Development
+## Setup
 
 Clone, then install depedencies with:
 
@@ -11,6 +11,10 @@ Clone, then install depedencies with:
 Then run the dev server with:
 
 > yarn dev
+
+Testing:
+
+> yarn test
 
 ## TODO
 
